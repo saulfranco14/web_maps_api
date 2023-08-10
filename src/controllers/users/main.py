@@ -1,6 +1,5 @@
 from src.config.bd import Database
 from bson.objectid import ObjectId
-import bcrypt
 
 # Connect to Mongo
 user_collection = Database("User")
